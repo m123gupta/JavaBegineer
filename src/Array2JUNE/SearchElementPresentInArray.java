@@ -1,16 +1,14 @@
-package com.monika.gupta.Array;
+package Array2JUNE;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-//You are given an integer T (number of test cases). You are given array A and an integer B for each test case. You have to tell whether B is present in array A or not
-public class Array3 {
+public class SearchElementPresentInArray {
     public static int findMinMax(int []arr,int a) {
         int flag=0;
         for (int i = 0; i < arr.length; i++) {
-           if(arr[i]==a){
-               flag=1;
-           }
+            if(arr[i]==a){
+                flag=1;
+            }
         }
 
 
@@ -28,7 +26,7 @@ public class Array3 {
                 arr[i] = k;
             }
             int a= sc.nextInt();
-          int k = findMinMax(arr,a);
+            int k = findMinMax(arr,a);
             System.out.println(k);
 //            int a= sc.nextInt();
 //
